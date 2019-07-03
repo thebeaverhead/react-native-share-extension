@@ -1,5 +1,20 @@
 # React Native Share Extension
 
+
+## Fork info
+This fork applies the PR (https://github.com/alinz/react-native-share-extension/pull/32) but updated library index.js file to work on both platforms.
+
+following methods are exposed:
+- data() - Android (no changes)
+- close() - Android (no changes)
+- dataiOS(groupName) - for iOS only, requires to pass the group name;
+- dataMultiple(groupName) - for iOS only, requires to pass the group name, returns all the resources;
+- close(groupName) - for iOS only
+
+
+
+
+
 This is a helper module which brings react native as an engine to drive share extension for your app.
 
 <p align="center">
